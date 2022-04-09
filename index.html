@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/98e56abf5f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/98e56abf5f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>FCC - Personal Portfolio Webpage</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fa-solid fa-bars" id="btn"></i>
+        <i class="fa-solid fa-xmark" id="cancel"></i>
+      </label>
+      <ul class="nav-list">
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home -->
+    <section class="home-section" id="welcome-section">
+      <img src="img/profile.jpg" alt="profile" />
+      <h1>Dio Setia Dharmawan</h1>
+      <p>UI Engineer Enthusiast</p>
+      <button class="github-button">
+        <a id="profile-link" href="https://github.com/diosetiad" target="_blank"
+          >Follow My Github <i class="fa-brands fa-github"></i
+        ></a>
+      </button>
+    </section>
+
+    <!-- About -->
+    <section class="about-section" id="about">
+      <h1>About Me</h1>
+      <p>
+        I'm a fresh graduate with one year's experience implementing designs
+        into lines of code that will later appear on web pages. I keep looking
+        to learn new things every day.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects-section" id="projects">
+      <h1 class="title">Some of My Projects</h1>
+      <div class="card projects-card">
+        <div class="content">
+          <a
+            class="project project-tile"
+            target="_blank"
+            href="https://watch-demo.netlify.app/"
+          >
+            <img
+              class="img-projects"
+              src="img/watch-project.jpg"
+              alt="watch-project"
+            />
+            <p class="title-projects">Watch</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="card projects-card">
+        <div class="content">
+          <a
+            class="project project-tile"
+            target="_blank"
+            href="https://coldnbrew-demo.netlify.app/"
+          >
+            <img
+              class="img-projects"
+              src="img/cnb-project.jpg"
+              alt="cnb-project"
+            />
+            <p class="title-projects">ColdnBrew</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="card projects-card">
+        <div class="content">
+          <a
+            class="project project-tile"
+            target="_blank"
+            href="https://diosetiad.github.io/productlandingpage-freeCodeCamp/"
+          >
+            <img
+              class="img-projects"
+              src="img/circle-project.jpg"
+              alt="circle-project"
+            />
+            <p class="title-projects">Circle</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="card projects-card">
+        <div class="content">
+          <a
+            class="project project-tile"
+            target="_blank"
+            href="https://diosetiad.github.io/technicaldocumentationpage-freeCodeCamp/"
+          >
+            <img
+              class="img-projects"
+              src="img/techdoc-project.jpg"
+              alt="techdoc-project"
+            />
+            <p class="title-projects">Technical Documentation</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="card projects-card">
+        <div class="content">
+          <a
+            class="project project-tile"
+            target="_blank"
+            href="https://diosetiad.github.io/surveyform-freeCodeCamp/"
+          >
+            <img
+              class="img-projects"
+              src="img/surveyform-project.jpg"
+              alt="surveyform-project"
+            />
+            <p class="title-projects">Survey Form</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="card projects-card">
+        <div class="content">
+          <a
+            class="project project-tile"
+            target="_blank"
+            href="https://diosetiad.github.io/tributepage-freeCodeCamp/"
+          >
+            <img
+              class="img-projects"
+              src="img/tribute-project.jpg"
+              alt="tribute-project"
+            />
+            <p class="title-projects">Tribute Page</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <h1>You Have a New Project</h1>
+      <p>Contact me now and get a 20% discount on your new project.</p>
+      <form name="contact-form">
+        <div class="form">
+          <label for="name" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Your name.."
+            required
+          />
+        </div>
+        <div class="form">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Your email.."
+            required
+          />
+        </div>
+        <div class="form">
+          <label for="text" class="form-label">Message</label>
+          <input
+            type="text"
+            class="form-control"
+            id="text"
+            placeholder="Your message.."
+            required
+          />
+        </div>
+        <button type="submit" class="btn">Contact me</button>
+      </form>
+    </section>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
